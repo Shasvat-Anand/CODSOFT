@@ -39,6 +39,7 @@ body{
     border: none;
     color: white;
     font-size: 20px;
+    cursor: pointer;
     box-shadow: -2px -2px 5px rgba(181, 181, 180, 0.6), 2px 2px 5px rgb(6, 6, 6);    
 }
 #special-button{
@@ -64,10 +65,13 @@ body{
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;     
-    
+    overflow:visiblesl;
     border-radius: 10px;
     font-size: 2rem;
     color: white;
     padding: 5px;
     box-sizing: border-box;
+    background-color: rgb(40, 39, 39);
+    
+
 }
