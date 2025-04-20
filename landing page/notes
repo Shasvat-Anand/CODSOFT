@@ -1,0 +1,15 @@
+smooth scrolling 
+    attach loco scroll css from the git repo of locomotive js git
+    attach locomotive scroll min js
+    some code from loco github for js and change the element where do you want to set the scroll smooth
+
+    imp:
+    in case of position relative or absolute then fix it 
+    and in case of white line comes then set the background color black of the main div in which all the content is .
+    attach the loco css file to html
+    attach the script js to html
+
+
+gsap
+    attach gsap cdn
+Scrolltrigger
