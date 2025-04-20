@@ -1,0 +1,315 @@
+ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(3, 3, 48);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+} 
+
+
+ nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: rgb(42, 42, 97);
+    padding: 1rem 0;
+} 
+.left img{
+    height: 9rem;     
+    border-radius: 40% 0;
+
+}
+.left img:hover {
+    box-shadow: 0 0 10px yellow;
+    transform: scale(1.1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.5rem 0;
+} 
+
+ nav ul li {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    transform: scale(1.1);
+    color: greenyellow;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.right {
+    font-size: large;
+} 
+
+  .firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8rem 1rem;
+    flex-wrap: wrap;
+}
+
+.firstSection > div {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.leftsection {
+    font-size: 2rem;
+}
+
+.leftsection .buttons {
+    margin-top: 1rem;
+}
+
+.leftsection .btn {
+    padding: 15px;
+    font-size: 18px;
+    background-color: rgba(64, 85, 85, 0.538);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid;
+    transition: background-color 1s ease-in-out;
+    cursor: pointer;
+}
+
+.leftsection .btn:hover {
+    background-color: #090642;
+}
+
+.rightsection img {
+    width: 90%;
+    max-width: 300px;
+    border-radius: 50% 0 50% 50%;
+} 
+
+ 
+.text-anand {
+    color: rgb(134, 60, 217);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(134, 60, 213);
+} 
+
+  .Aboutme,
+.Skillandtech,
+.secondSection {
+    margin: 5rem 2rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.Aboutme h1,
+.Skillandtech h1,
+.secondSection h1 {
+    font-size: 2rem;
+}
+
+.Aboutme h2,
+.Skillandtech h2 ,.work h2 {
+    color: rgb(103, 213, 60);
+    padding: 0.5rem 0;
+}
+
+.Aboutme .para1,
+.para2,
+.para3 {
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.Skillandtech .items, .work .items ul {
+    margin: 1rem;
+    font-size: 1.1rem;}
+
+
+ 
+  footer {
+    background-color: rgb(66, 127, 183);
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.footer li {
+    list-style: none;
+}
+.footer-second  a {
+    text-decoration: none;
+    margin: 0 1rem;
+    color: #000;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+     
+}
+.footer-third  a {
+        text-decoration: none;
+        margin: 0 1rem;
+        color: #000;
+        font-size: 2rem;
+        text-decoration: none;
+         
+}
+.footer-fourth li {
+    text-decoration: none;
+    margin: 0 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+#youtube :hover{
+    background: linear-gradient(45deg, #ff0000, #cc0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transform: scale(1.5);
+    
+}
+#insta :hover{
+    background: linear-gradient(45deg, #feda75, #d62976, #962fbf, #4f5bd5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    transform: scale(1.5); 
+    
+}
+#leetcode :hover{
+    background: linear-gradient(45deg, #f89f1b, #0f0f0f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transform: scale(1.5);
+}
+#email :hover{
+    background: linear-gradient(45deg, #ea4335, #fbbc05);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transform: scale(1.5);
+     
+}
+#linkedin :hover{
+    background: linear-gradient(45deg, #f3f3f3, #f1f1f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transform: scale(1.5);
+}
+#github :hover{
+    color: white;
+    transform: scale(1.5);
+}
+
+.footer > div {
+    width: auto;
+}
+
+footer .footer-right {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem;
+} 
+  
+
+
+.footer-first img{
+    height: 10rem;
+    border-radius: 40% 0 ;
+}
+.footer-first img:hover {
+    box-shadow: 0 0 10px yellow;
+    transform: scale(1.1);
+}
+ 
+@media (min-width: 768px) {
+    .firstSection > div {
+        width: 40%;
+    }
+
+    .leftsection {
+        font-size: 3rem;
+    }
+
+    .rightsection img {
+        width: 80%;
+    }
+
+    .Aboutme,
+    .Skillandtech,
+    .secondSection {
+        margin: 10rem 8rem;
+    }
+
+    .Aboutme h1,
+    .Skillandtech h1,
+    .secondSection h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .left {
+        font-size: 1.5rem;
+    }
+
+    .leftsection .btn {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .Aboutme h1,
+    .Skillandtech h1,
+    .secondSection h1 {
+        font-size: 1.5rem;
+    }
+}  
