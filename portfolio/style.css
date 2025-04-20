@@ -1,0 +1,265 @@
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(3, 3, 48);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px;
+    background-color: rgb(42, 42, 97);
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+ 
+}
+
+ nav ul li a:hover {
+    color: greenyellow;
+    
+    
+} 
+ 
+ 
+.left {
+    font-size: 2rem;
+}
+
+.right {
+    font-size: large;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 135px 0;
+    align-items: center;
+    position: relative;
+
+}
+
+.leftsection {
+
+    font-size: 3rem;
+}
+
+.rightsection img {
+    width: 80%;
+    border-radius: 50% 0 50% 50%;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.text-anand {
+    color: rgb(134, 60, 217);
+}
+
+.text-gray {
+    color: gray;
+
+}
+
+#element {
+    color: rgb(134, 60, 213);
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    margin: 60px 84px;
+    height: 2px;
+}
+
+
+ 
+
+.Aboutme{
+    margin: auto;
+    max-width: 80vw;
+    height: 50vh;
+    position: relative;
+}
+.Aboutme h1{
+    font-size: 2.5rem; 
+}
+.Aboutme h2{
+    color: rgb(103, 213, 60);
+    padding: 10px;
+}
+
+.Aboutme .para1 , .para2, .para3{
+    padding: 10px;
+    font-size: 18px;
+    font-weight:300;
+}
+
+
+.Skillandtech{
+    margin: auto;   
+    max-width: 80vw;
+    height: 60vh;
+    position: relative;
+}
+ 
+.Skillandtech h1{
+    font-size: 2.5rem;
+}
+.Skillandtech h2{
+    color: rgb(103, 213, 60);
+    padding: 10px;
+}
+ 
+.Skillandtech .items ul{
+     margin: 5px;
+     font-size: 18px;
+}
+ 
+
+
+
+
+
+
+
+
+.secondSection {
+    margin: auto;
+    max-width: 80vw;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 2.5rem;
+}
+
+.secondSection .timeline {
+    background: white;
+    width: 76vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+#element1 {
+    color: rgb(126, 213, 60);
+}
+
+.secondSection .vertical {
+    height: 50px;
+    width: 1px;
+    margin: 0 120px;
+    background-color: white;
+}
+
+.image-top {
+    width: 30px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 30px;
+    width: 150px;
+    font-size: 14px;
+    left: -40px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 40px;
+    color: gray;
+    width: 150px;
+    font-size: 12px;
+    left: -40px;
+
+
+}
+footer{
+    background-color:purple;
+   
+
+}
+
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+
+}
+.footer li{
+    list-style: none;
+}
+.footer > div{
+    width:23px;
+}
+footer .footer-right{
+    text-align: center;
+    color: gray;
+    padding: 12px 12px;
+}
+.leftsection .buttons{
+    margin: 10px;;
+}
+.leftsection .btn{
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgba(64, 85, 85, 0.538);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid;
+    
+}
+ 
+ .leftsection .btn {
+    transition: background-color 1s ease-in-out;
+}
+
+.leftsection .btn:hover {
+    background-color: #090642;
+}
+
+
+
+
+.left  img{
+    height: 80px;
+    padding-top: 10px;
+    border-radius: 50%;
+      
+   
+
+}
+.left img:hover{
+
+    box-shadow: yellow;
+    transform: scale(1.2);
+}
